@@ -1,0 +1,60 @@
+# =========================
+# General
+# =========================
+.env
+.env.*
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Go
+# =========================
+# Binaries
+bin/
+dist/
+
+# Test cache
+*.test
+coverage.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+build/
+.npmrc
+.pnpm-store/
+
+# =========================
+# Ansible
+# =========================
+*.retry
+ansible/tmp/
+ansible/.cache/
+
+# =========================
+# Docker
+# =========================
+*.pid
+docker-compose.override.yml
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
